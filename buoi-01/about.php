@@ -1,5 +1,4 @@
 <?php
-    // Thông tin cá nhân
     $hoTen = "Đặng Mai Hương";
     $namSinh = 2006;
     $truong = "Trường Đại học Thủ đô Hà Nội";
