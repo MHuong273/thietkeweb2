@@ -1,28 +1,61 @@
-<?php
-$pageTitle = "Buổi 1: Kiến trúc Web, Môi trường & Quy trình phát triển";
-?>
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $pageTitle ?></title>
+
+    <title>Buổi 01</title>
+
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        .card { background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 40px; border-radius: 16px; max-width: 600px; width: 100%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5); text-align: center; }
-        h1 { color: #38bdf8; font-size: 1.8rem; margin-bottom: 12px; }
-        p { color: #94a3b8; line-height: 1.6; margin-bottom: 24px; }
-        .tag { display: inline-block; background: #0284c7; color: white; padding: 6px 16px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; margin-bottom: 20px; }
-        a { color: #38bdf8; text-decoration: none; font-weight: 500; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .box {
+            background: white;
+            max-width: 700px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #198754;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
     </style>
 </head>
+
 <body>
-    <div class="card">
-        <span class="tag">BÀI THỰC HÀNH 01</span>
-        <h1><?= $pageTitle ?></h1>
-        <p>Đây là bài tập thực hành dành cho buổi 1 thuộc học phần <strong>Lập trình Web_B1</strong>.</p>
-        <p><a href="../about.php">← Quay lại trang About Me</a></p>
+
+    <div class="box">
+
+        <a href="../index.html" class="back-button">
+            ← Quay lại trang chính
+        </a>
+
+        <h1>BUỔI 01</h1>
+
+        <h2>Kết quả bài thực hành</h2>
+
+        <p>Xin chào Lập trình Web!</p>
+
+        <p>Đây là kết quả bài thực hành buổi 01.</p>
+        <a href="buoi-01/about.php" class="back-button">
+            Bài 1: Giới thiệu bản thân
+        </a>
+
     </div>
+
 </body>
+
 </html>
